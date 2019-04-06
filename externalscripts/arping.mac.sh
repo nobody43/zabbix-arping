@@ -30,7 +30,7 @@ if [[ "$OUTPUT" == \!* ]] ||
    [[ "$OUTPUT" == \.* ]] ||
    [[ "$OUTPUT" == *\):[[:space:]]index\=* ]]
 then
-	echo `basename "$0"`': Only iproute-arping is currently supported. Terminating.'
+	echo `basename "$0"`': Only iputils-arping is currently supported. Terminating.'
 	exit 1
 fi
 
